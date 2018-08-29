@@ -8,7 +8,7 @@ interface Args {
 
 class Endpoint extends S.Endpoint {
   async run(
-    {response, users}: S.Core
+    {response, users}: S.Core,
     {args}: S.Context<Args>
   ) {
     const annoyIndex1 = new Annoy(2, 'euclidean')
