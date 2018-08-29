@@ -34,7 +34,6 @@
     "@babel/cli": "^7.0.0-beta.49",
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
-    "@syncano/cli": "^0.13.0-alpha.a6dc7535",
     "@syncano/test": "0.13.0-alpha.f6ea95d4",
     "@syncano/test-tools": "0.13.0-alpha.f6ea95d4",
     "babel-core": "^7.0.0-bridge.0",
