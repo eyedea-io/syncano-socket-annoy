@@ -1,15 +1,15 @@
 import * as S from '@eyedea/syncano'
 import Annoy from 'annoy'
 
-// interface Args {
-//   code: string
-//   state: string
-// }
+interface Args {
+  code: string
+  state: string
+}
 
 class Endpoint extends S.Endpoint {
   async run(
     {response, users}: S.Core
-    // {args}: S.Context<Args>
+    {args}: S.Context<Args>
   ) {
     const annoyIndex1 = new Annoy(2, 'euclidean')
 
