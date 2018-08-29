@@ -1,0 +1,8 @@
+name: users
+description: Listing users
+
+endpoints:
+  list:
+    description: List users
+  find:
+    description: Get user by ID
