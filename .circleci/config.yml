@@ -15,6 +15,10 @@ jobs:
           keys:
           - v6-dependencies-{{ checksum "package.json" }}
 
+      - restore_cache:
+          keys:
+          - v6-dependencies-{{ checksum ".dist/package.json" }}
+
       - run: npm install
       - run: npm install @syncano/cli@canary --no-save
       - run: npm run build
@@ -24,6 +28,11 @@ jobs:
           paths:
             - node_modules
           key: v6-dependencies-{{ checksum "package.json" }}
+
+      - save_cache:
+          paths:
+            - .dist/node_modules
+          key: v6-dependencies-{{ checksum ".dist/package.json" }}
 
       - save_cache:
           key: v6-repo-{{ .Environment.CIRCLE_SHA1 }}

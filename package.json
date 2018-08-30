@@ -1,6 +1,6 @@
 {
   "name": "@eyedea-sockets/annoy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Socket for Annoy (Approximate Nearest Neighbors Oh Yeah)",
   "repository": "https://github.com/eyedea-io/syncano-socket-annoy.git",
   "public": true,
