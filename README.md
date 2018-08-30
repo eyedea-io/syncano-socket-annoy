@@ -9,7 +9,7 @@
 
 Main Socket features:
 
-* **annoy/match** — find nearest neighbors
+* **annoy/match** — find nearest neighbours
 
 ## Getting Started
 
@@ -35,5 +35,15 @@ const params = {
   query: ['react', 'js'],
   matchWith: [10,3]
 }
-const company = await s.get('annoy/match', params)
+const suggestions = await s.get('annoy/match', params)
+
+// {
+//   distances: [ 1, 5, 8.062257766723633, 9.219544410705566 ],
+//   objects: [
+//     { username: 'qk', react: 10, js: 2, css: 3 },
+//     { username: 'gustavo', react: 5, js: 3, css: 7 },
+//     { username: 'pedro', react: 2, js: 2, css: 4 },
+//     { username: 'nik', react: 1, js: 1, css: 3 }
+//   ]
+// }
 ```
