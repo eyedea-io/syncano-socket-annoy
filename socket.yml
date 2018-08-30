@@ -4,7 +4,23 @@ description: Listing users
 endpoints:
   match:
     description: Match objects
-  list:
-    description: List users
-  find:
-    description: Get user by ID
+    inputs:
+      properties:
+        model:
+          type: string
+          description: Name of the class in the database (source of data)
+        query:
+          type: array
+          description: Array of fields to query e.g. ['react', 'js']
+          items:
+            type: string
+            description: Name of the field
+        matchWith:
+          type: array
+          description: Array of fields to match with e.g. [1, 3, 4]
+          items:
+            type: integer
+            description: Values used to match
+        suggestionsNumber:
+          type: integer
+          description: Number of suggested objects in the response

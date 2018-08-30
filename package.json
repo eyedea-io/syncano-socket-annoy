@@ -24,7 +24,7 @@
     "build": "npm run build:src && npm run build:env",
     "build:src": "sh ./bin/compile",
     "build:env": "sh ./bin/compile-env",
-    "test": "npm-run-all --parallel test:lint test:audit test:all",
+    "test": "npm-run-all --parallel test:lint test:audit test:unit",
     "codecov": "codecov",
     "test:all": "NODE_ENV=test jest e2e/.*\\.test\\.js unit/.*\\.test\\.js",
     "test:unit": "NODE_ENV=test jest unit/.*\\.test\\.js",
