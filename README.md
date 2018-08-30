@@ -1,4 +1,4 @@
-# Syncano Socket for Socket for Annoy (Approximate Nearest Neighbors Oh Yeah)
+# Syncano Socket for Annoy (Approximate Nearest Neighbors Oh Yeah)
 
 [![Syncano Socket](https://img.shields.io/badge/syncano-socket-blue.svg)](https://syncano.io)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/eyedea-io/syncano-socket-annoy/master.svg)](https://circleci.com/gh/eyedea-io/syncano-socket-annoy/tree/master)
