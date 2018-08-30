@@ -1,5 +1,5 @@
-name: users
-description: Listing users
+name: annoy
+description: Interface to Annoy
 
 endpoints:
   match:
