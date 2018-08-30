@@ -2,6 +2,8 @@ name: users
 description: Listing users
 
 endpoints:
+  match:
+    description: Match objects
   list:
     description: List users
   find:

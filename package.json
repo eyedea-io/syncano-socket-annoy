@@ -1,7 +1,7 @@
 {
   "name": "@eyedea-sockets/annoy",
   "version": "0.0.1",
-  "description": "Socket for Annoy",
+  "description": "Socket for using Annoy (Approximate Nearest Neighbors Oh Yeah)",
   "repository": "https://github.com/eyedea-io/syncano-socket-annoy.git",
   "public": true,
   "author": "Eyedea <hello@eyedea.io> https://eyedea.io",
@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@eyedea/syncano": "0.2.0",
-    "annoy": "^2.0.1"
+    "annoy": "^2.0.1",
+    "lodash.get": "^4.4.2"
   },
   "scripts": {
     "build": "npm run build:src && npm run build:env",
