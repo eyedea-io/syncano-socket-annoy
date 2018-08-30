@@ -4,3 +4,4 @@ mkdir -p .dist
 cp package.json .dist
 cd .dist
 npm install --production
+rm -rf node_modules/annoy/tests
