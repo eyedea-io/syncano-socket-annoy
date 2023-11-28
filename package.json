@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@eyedea/syncano": "0.2.0",
-    "annoy": "^2.0.1",
+    "annoy": "^3.0.0",
     "lodash.get": "^4.4.2"
   },
   "scripts": {
